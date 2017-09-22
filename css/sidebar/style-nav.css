@@ -1,0 +1,224 @@
+/*nav vertical*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-side-menu {
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  width: 200px;
+  max-width: 100%;
+  height: 100%;
+  color: #808080;
+}
+.nav-side-menu .brand {
+  background-color: #fff;
+  /*background-color: #e8e9e6;*/
+  border-bottom: 1px solid #E8E9E6;
+  line-height: 50px;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  padding: 0 0 0 15px;
+  display: none;
+}
+
+.nav-side-menu .toggle-btn {
+  display: none;
+}
+.nav-side-menu ul,
+.nav-side-menu li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 35px;
+  cursor: pointer;
+  /*    
+    .collapsed{
+       .arrow:before{
+                 font-family: FontAwesome;
+                 content: "\f053";
+                 display: inline-block;
+                 padding-left:10px;
+                 padding-right: 10px;
+                 vertical-align: middle;
+                 float:right;
+            }
+     }
+*/
+}
+i.fa.fa-angle-up, i.fa.fa-angle-down {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 4px;
+  vertical-align: middle;
+  float: right;
+  color:#EC2427;
+  font-size: 25px;
+
+}
+/*.nav-side-menu ul :not(collapsed) .fa.fa-chevron-left:before,
+.nav-side-menu li :not(collapsed) .fa.fa-chevron-left:before, {
+  font-family: FontAwesome;
+  content: "\f107";
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+  color:#EC2427;
+  font-size: 25px;
+
+}
+.nav-side-menu ul :not(collapsed) .fa.fa-chevron-down:before,
+.nav-side-menu li :not(collapsed) .fa.fa-chevron-down:before,{
+    font-family: FontAwesome;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  float: right;
+  color:#EC2427;
+  font-size: 25px;
+
+}*/
+
+.nav-side-menu ul .sub-menu li,
+.nav-side-menu li .sub-menu li {
+  background-color: #fff;
+  border: none;
+  line-height: 40px;
+  /*border-bottom: 1px solid #23282e;*/
+  margin-left: 0px;
+  padding-left: 20px;
+}
+.nav-side-menu ul .sub-menu li:hover,
+.nav-side-menu li .sub-menu li:hover {
+  background-color: #E8E9E6;
+}
+.nav-side-menu ul .sub-menu li:before,
+.nav-side-menu li .sub-menu li:before {
+  font-family: FontAwesome;
+  /*content: "\f107";*/
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.nav-side-menu li {
+  padding-left: 5px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.nav-side-menu li a {
+  text-decoration: none;
+  color: #808080;
+  /*padding: 0 0 0 16px;*/
+  font-size: 16px;
+}
+.nav-side-menu li a i {
+  padding-left: 10px;
+  width: 20px;
+  padding-right: 20px;
+}
+/*.nav-side-menu li:hover {
+  border-left: 3px solid #d19b3d;
+  background-color: #e8e9e6;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}*/
+
+@media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .nav-side-menu .brand{
+    display: block;
+  }
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    /*background-color: #ffffff;*/
+    color: #EC2427;
+    width: 40px;
+    text-align: center;
+  }
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+   span.fa.icon-etiqueta-3, span.fa.icon-peso-3{
+    width: 30px;
+    text-align: center;
+    display: inline-block !important;
+  }
+
+  i.fa.fa-angle-up, i.fa.fa-angle-down {
+    display: none;
+  }
+  
+}
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
+/*--------------CONTENIDOS--------------------------*/
+
+@media (min-width: 992px){
+
+	.col-md-3.col-lg-2.menu{
+		width: 19.66666%;
+	}
+
+}
+
+@media (min-width: 1367px){
+
+	.col-lg-2.menu {
+		   width: 16.666667%;
+		   padding: 0;
+		   margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
