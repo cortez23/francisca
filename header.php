@@ -9,7 +9,7 @@
 
 		<meta name="classification" content="Calzados, Shoes, niños, bebés, adultos, cursos, zapateria">
 		<meta name="description" content="Curso de Calzados, Elige el curso que más te gusta, adquiere experiencia en la elaboración de calzado.">
-		<meta name="keywords" content="cursos de calzados para bebé, niños, adultos, creaciones">
+		<meta name="keywords" content="Calzado, zapatos, zapateros, zapatos niños, zapatos adulto, zapatos bebé, accesorios">
 		<meta name="format-detection" content="telephone=no" />
 		<meta name="robots" content="noindex, nofollow" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
