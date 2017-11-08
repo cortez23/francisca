@@ -1,15 +1,50 @@
-#navbar-main.affix-top, #navbar-main.affix {
+#navbar-main.affix-top, #navbar-main.affix, .container.perfil img.img-responsive.img_perfil.marca {
   border-radius: 0;
   border: 0; }
+
+.container-fluid.conten-img, .container-fluid.conten-img .header-img {
+  margin: 0;
+  padding: 0; }
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12.cursos h3.titulo-cursos.text-center, .container.perfil h3.titulo-perfil.text-center, .container.clases h3.titulo-cursos.text-center, .container.perfil h3.titulo-cursos.text-center {
+  font-size: 50px;
+  font-weight: 300; }
 
 body {
   font-family: 'Open Sans', sans-serif;
   background-image: url(../img/fondo/hojas.png); }
 
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 9999;
+  /* makes sure it stays on top */ }
+  #preloader #status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(../img/loading/loading.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */ }
+
 .container-fluid.pag-home {
   background-image: url(../img/fondo/shoes-fondo.jpg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
   .container-fluid.pag-home .col-xs-12.col-lg-12.caja-contenido {
     position: absolute;
     top: 35%;
@@ -127,9 +162,6 @@ button.scroll_down:before {
 .col-xs-12.col-sm-12.col-md-12.col-lg-12.cursos {
   height: 1000px;
   margin: 150px 0 0 0; }
-  .col-xs-12.col-sm-12.col-md-12.col-lg-12.cursos h3.titulo-cursos.text-center {
-    font-size: 50px;
-    font-weight: 300; }
   .col-xs-12.col-sm-12.col-md-12.col-lg-12.cursos hr#line-curso {
     margin: 20px auto 30px;
     width: 60%;
@@ -266,6 +298,40 @@ footer.container-fluid.footer {
       footer.container-fluid.footer .col-xs-6.col-sm-6.col-md-6.col-lg-6.redes-social nav.icono-social ul li a img {
         width: 100%;
         height: auto; }
+
+.container.perfil .img_perfil {
+  width: 25%;
+  height: auto;
+  border-radius: 170px;
+  margin: 160px auto 0; }
+
+.container.perfil h3.titulo-perfil.text-center {
+  margin-top: 50px;
+  margin-bottom: 80px; }
+
+.container.perfil p {
+  margin-bottom: 15px;
+  line-height: 1.3; }
+
+.container.perfil img.img-responsive.img_perfil.marca {
+  width: 50%;
+  height: auto; }
+
+.container-fluid.conten-img .header-img {
+  height: 400px;
+  overflow: hidden; }
+  .container-fluid.conten-img .header-img img {
+    width: 100%;
+    height: auto; }
+
+.container.clases, .container.perfil {
+  margin-bottom: 90px; }
+  .container.clases h3.titulo-cursos.text-center, .container.perfil h3.titulo-cursos.text-center {
+    margin-top: 150px;
+    margin-bottom: 80px; }
+  .container.clases p, .container.perfil p {
+    margin-bottom: 15px;
+    line-height: 1.3; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
   .caja-contenido {

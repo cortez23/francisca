@@ -5,7 +5,7 @@
 				<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3YwwBypfekh-sykWXNrS_gSlG4Mldd84&callback=initMap"></script>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 info-direccion">
-				<h3 class="direccion">Villavicencio 323, <br>Santiago, Región Metropolitana, Chile</h3>
+				<h3 class="direccion">Villavicencio 323, 2° Piso <br>Santiago, Región Metropolitana, Chile</h3>
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 redes-social">
 				<nav class="icono-social">
@@ -22,6 +22,7 @@
 			<h2>Todos los Derechos Reservados &copy <a href="https://www.la-zapateria.cl">La Zapatería</a></h2>			
 		</div>
 	</footer>
+		<script src="js/loading.js"></script>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<!-- Bootstrap JavaScript -->
@@ -32,6 +33,7 @@
  		<script src="Hello World"></script>
  		<script src="js/sidebar.js"></script>
  		<script src="js/navbar.js"></script>
+ 		
 	</body>
 	<?php include ('map.php') ?>
 	

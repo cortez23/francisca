@@ -10,12 +10,18 @@
       <ul class="nav navbar-nav">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos de Calzados<span class="caret"></span></a>
          <ul class="dropdown-menu">
-          <li><a href="#section41">Curso de Calzado Bebé</a></li>
-          <li><a href="#section42">Curso de Calzado niños</a></li>
-          <li><a href="#section42">Curso de Calzado Adultos</a></li>
+          <li><a href="pag_bebe.php">Curso de Calzado Bebé</a></li>
+          <li><a href="pag_nino.php">Curso de Calzado niños</a></li>
+          <li><a href="pag_adulto.php">Curso de Calzado Adultos</a></li>
          </ul>
         </li>
-        <li><a href="#about">Quienes Somos</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Academia<span class="caret"></span></a>
+         <ul class="dropdown-menu">
+          <li><a href="q_s.php">Quienes somos</a></li>
+          <li><a href="francisca.php">Mi perfil</a></li>
+         </ul>
+        </li>
+        <li><a href="http://www.tienda.la-zapateria.cl">Tienda</a></li>
         <li><a href="#contact" data-toggle="modal" data-target="#contacto">Contacto</a></li>
       </ul>
     </div>
