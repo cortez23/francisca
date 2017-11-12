@@ -71,7 +71,7 @@ body{
 // FIN CARGADOR
 
 .container-fluid.pag-home{
-	background-image: url(../img/fondo/shoes-fondo.jpg);
+	// background-image: url(../img/fondo/shoes-fondo.jpg);
 	background-size: cover;
 	background-position: center;
   background-attachment: fixed;
@@ -344,7 +344,7 @@ button.scroll_down:before {
     transition: none;
   }
 }
-// footer
+// FOOTER
 
 footer.container-fluid.footer{
   background-color: $negro;
@@ -365,6 +365,7 @@ footer.container-fluid.footer{
     h3.direccion{
       color: $blanco;
       font-weight: 400;
+      line-height: 1.3;
     }
   }
   .col-xs-6.col-sm-6.col-md-6.col-lg-6.redes-social{

@@ -1,5 +1,6 @@
 <?php include ('header.php') ?>
-	<div class=" container-fluid pag-home" style="height:100%;">
+	
+	<div class=" container-fluid pag-home" id="block" data-vide-bg="video/ocean" data-vide-options="position: 0% 50%" data-vide-options="attachment: fixed" style="height:100%";>
 		<header class="container conter">
 			<div class="row">
 				<div class="col-xs-12 col-lg-12 caja-contenido fadeInDown">
@@ -19,6 +20,7 @@
 			</div>
 		</header>
 	</div>
+
 <?php include ('navbar.php') ?>	
 <?php include ('acordion.php') ?>
 <?php include ('footer.php') ?>
