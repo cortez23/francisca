@@ -22,12 +22,13 @@
 			<h2>Todos los Derechos Reservados &copy <a href="https://www.la-zapateria.cl">La Zapatería</a></h2>			
 		</div>
 	</footer>
-		<script src="js/loading.js"></script>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<!-- video -->
 		<script src="js/jquery.vide.min.js"></script>
 		<!-- Bootstrap JavaScript -->
+		<script src="js/loading.js"></script>
+		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="js/bootstrap/bootstrap.js"></script>
 
