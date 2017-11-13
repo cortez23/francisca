@@ -8,7 +8,7 @@
             <ul>
               <li>
                  <div>
-                   <a href="#">
+                   <a href="pag_bebe.php">
                      <h2>Cursos Calzados de Bebé<hr></h2>
                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                    </a>
@@ -16,7 +16,7 @@
               </li>
                 <li>
                   <div>
-                    <a href="#">
+                    <a href="pag_nino.php">
                       <h2>Cursos Calzados de Niños<hr></h2>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </a>
@@ -24,7 +24,7 @@
                 </li>
                 <li>
                   <div>
-                    <a href="#">
+                    <a href="pag_adulto.php">
                       <h2>Cursos Calzados de Adultos<hr></h2>                      
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </a>
