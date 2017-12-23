@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- animation -->
 		<link rel="stylesheet" href="css/animation/animate.css">
+		<link rel="stylesheet" href="css/animation/bootstrap-dropdownhover.min.css">
 		<link rel="stylesheet" href="css/sidebar/sidebar-nav.css">
 		<link rel="stylesheet" href="css/sidebar/style-nav.css">
 		<!--style -->
@@ -41,9 +42,9 @@
 	</head>
 	<body >
 	<!-- Preloader -->
-<!-- 	<div id="preloader">
+	<div id="preloader">
 		<div id="status">&nbsp;</div>
-	</div> -->
+	</div>
 <!-- Modal -->
   <div class="modal fade" id="contacto" role="dialog">
     <div class="modal-dialog">
@@ -52,15 +53,13 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Contacto</h4>
         </div>
         <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <?php include('form.php') ?>
         </div>
       </div>
       
     </div>
   </div>
+  

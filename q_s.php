@@ -1,7 +1,7 @@
 <?php include ('header.php'); ?>
 <div class="container-fluid conten-img">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header-img">
-		<img src="img/fondo/be-be.jpg" alt="img">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header-img" id="q-s">
+		<!-- <img src="img/fondo/img01.jpg" alt="img"> -->
 	</div>
 </div>
 <?php include ('navbar.php') ?>

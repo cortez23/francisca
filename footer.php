@@ -12,7 +12,7 @@
 					<ul>
 						<li><a href="https://www.facebook.com/LaZapateriaAcademiaCalzado/"><img src="img/icons/facebook.svg" alt="Facebook"></a></li>
 						<li><a href=""><img src="img/icons/twitter.svg" alt="Twitter"></a></li>
-						<li><a href="www.instagram.com/lazapateria_"><img src="img/icons/instagran.svg" alt="Instagram"></a></li>
+						<li><a href="https://www.instagram.com/lazapateria_/"><img src="img/icons/instagran.svg" alt="Instagram"></a></li>
 						<li><a href="" data-toggle="modal" data-target="#contacto" class="collapsed"><img src="img/icons/mail.svg" alt="Instagram"></a></li>
 					</ul>
 				</nav>
@@ -31,6 +31,8 @@
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="js/bootstrap/bootstrap.js"></script>
+	    <script src="js/bootstrap/bootstrap-dropdownhover.min.js"></script>
+
 
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
  		<script src="Hello World"></script>
