@@ -326,6 +326,18 @@ footer.container-fluid.footer {
       footer.container-fluid.footer .col-xs-6.col-sm-6.col-md-6.col-lg-6.redes-social nav.icono-social ul li a img {
         width: 100%;
         height: auto; }
+  footer.container-fluid.footer .col-xs-12.col-lg-12.derechos {
+    width: 100%;
+    height: auto; }
+    footer.container-fluid.footer .col-xs-12.col-lg-12.derechos h2 {
+      text-align: right; }
+  footer.container-fluid.footer #diseno {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    background-color: #ccc; }
 
 .container.perfil .img_perfil {
   width: 25%;

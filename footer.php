@@ -21,6 +21,9 @@
 		<div class="col-xs-12 col-lg-12 derechos">
 			<h2>Todos los Derechos Reservados &copy <a href="https://www.la-zapateria.cl">La Zapatería</a></h2>			
 		</div>
+		<div id="diseno">
+			<h4>Diseñado por <a href="http://www.alvaroalarcon.cl"><img src="http://www.alvaroalarcon.c/img/logo/ico.png" alt=""></a></h4>
+		</div>	
 	</footer>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

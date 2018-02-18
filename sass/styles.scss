@@ -426,6 +426,21 @@ footer.container-fluid.footer{
       }
     }
   }
+  .col-xs-12.col-lg-12.derechos{
+    width: 100%;
+    height: auto;
+    h2{
+      text-align: right;
+    }
+  }
+  #diseno{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    background-color: #ccc;
+  }
 }
 // PAG FRANC
 .container.perfil{
